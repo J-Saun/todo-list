@@ -6,11 +6,23 @@
     <!-- Stylesheet  -->
     <link rel="stylesheet" href="styles.css" />
 
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <title>Todo Lisdt</title>
   </head>
   <body>
-    <h1>Todo List</h1>
+    <div class="container">
+      <h1>Todo List</h1>
 
+      <form action="" id="todo-form">
+        <input type="text" placeholder="Add new Todo" required />
+        <button type="submit">Add</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
