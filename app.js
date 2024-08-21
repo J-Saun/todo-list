@@ -56,7 +56,7 @@ function displayTasks() {
 
     const iconButtons = task.icons
       .map((icon) => {
-        return ` <button class="" onclick="${icon.iconFunction}" ><i class="${icon.className}"></i></button>`;
+        return ` <button class="icon-btn" onclick="${icon.iconFunction}" ><i class="${icon.className}"></i></button>`;
       })
       .join("");
 
